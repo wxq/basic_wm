@@ -27,7 +27,7 @@ set -e
 #     scons --build_with=gcc basic_wm
 # To build with Clang/libc++:
 #     scons --build_with=clang basic_wm
-scons --build_with=gcc basic_wm
+scons --build_with=clang basic_wm
 
 # 2. Run.
 #
